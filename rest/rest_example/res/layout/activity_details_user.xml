@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".DetailsUserActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:padding="10dp"
+        android:src="@drawable/img_mrbeen" />
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView android:id="@+id/txt_Details_UserName" 
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  android:text="Eduardo" android:textSize="25sp" 
+                  android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txt_Details_UserLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medina"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txt_Details_UserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abc@abc.com"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_Details_UserAge"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="30"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
